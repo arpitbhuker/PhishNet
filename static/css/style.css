@@ -1,0 +1,18 @@
+/* static/css/style.css */
+body { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+.card { max-width: 900px; margin: 0 auto; }
+
+/* Enhance key features table look */
+table.table {
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+thead.table-dark th {
+  background-color: #212529 !important;
+  color: #fff;
+}
+tbody tr td {
+  font-size: 0.95rem;
+}
