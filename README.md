@@ -9,7 +9,7 @@ PhishNet is a compact rule-based suspicious link analyzer with a lightweight Fla
 - Packaging support (PyInstaller spec) for creating distributable executables.
 
 ## Repo structure
-
+```bash
 PhishNet/
 ├─ app.py                 # Flask app entry (routes, UI rendering)
 ├─ server.py              # Alternative server entry / WSGI start
@@ -24,6 +24,7 @@ PhishNet/
 ├─ assets/                # icons / additional assets
 ├─ build/ dist/           # Build artifacts (if packaging supported)
 └─ __pycache__/
+```
 
 ## Output
 <img width="1919" height="951" alt="Output" src="https://github.com/user-attachments/assets/62fe1435-f20f-4a18-bd15-3b864eee37f9" />
@@ -42,6 +43,7 @@ python -m venv .venv
 ```
 
 - Activate the environment:
+  
 Windows
 ```bash
 .venv\Scripts\activate
